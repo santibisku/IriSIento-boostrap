@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+
+}
+
+header {
+    height: 60px;
+
+}
+
+.logo {
+    position: absolute;
+    width: 70px;
+    filter: invert(100%);
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    position: absolute;
+    left: 70px;
+
+}
+
+h2 {
+    font-size: large;
+    position: relative;
+    background-color: yellow;
+    display: inline;
+
+}
+
+.nav {
+    float: right;
+
+}
+
+.nav-link {
+    color: white;
+
+}
+
+.grid {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    padding: 30px;
+
+
+}
+
+.grid img {
+
+    width: 300px;
+    margin: auto;
+
+
+}
+
+.poemas {
+
+    display: flex;
+    flex-direction: row;
+    white-space: pre-line;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.poetaimg {
+
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+
+
+
+}
+
+.poema {
+
+    width: 300px;
+    margin: 100px;
+    margin-top: 0px;
+
+
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.redes {
+    height: 100px;
+    padding: 30px;
+
+}
+
+.linea {
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 500px;
+    padding: 0;
+    margin: 1px auto 0 auto;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+/* mq */
+
+
+@media (max-width: 1200px) {
+
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .poemas {
+
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+}

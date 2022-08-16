@@ -23,7 +23,9 @@ header {
 
 h1 {
     position: absolute;
-    left: 70px;
+    text-align: center;
+    width: 100%;
+    color: white;
 
 }
 
@@ -36,13 +38,19 @@ h2 {
 }
 
 .nav {
-    float: right;
+    right: 0;
+    position: absolute;
 
 }
 
 .nav-link {
     color: white;
 
+}
+
+.img-fluid {
+    border: 3px solid lightgreen;
+    margin: 5px;
 }
 
 .poemas {
@@ -90,7 +98,10 @@ footer {
     padding: 30px;
 
 }
-
+.h4 {
+    background-color: yellow;
+    display: inline;
+}
 .linea {
     border-top: 1px solid black;
     height: 2px;

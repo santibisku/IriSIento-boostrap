@@ -8,49 +8,18 @@ body {
 
 }
 
-header {
-    height: 60px;
-
-}
 
 .logo {
-    position: absolute;
-    width: 70px;
-    filter: invert(100%);
-    top: 0;
-    left: 0;
-}
 
-h1 {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    color: white;
+    width: 60px;
 
 }
 
-h2 {
-    font-size: large;
-    position: relative;
+h3 {
+
     background-color: yellow;
     display: inline;
 
-}
-
-.nav {
-    right: 0;
-    position: absolute;
-
-}
-
-.nav-link {
-    color: white;
-
-}
-
-.img-fluid {
-    border: 3px solid lightgreen;
-    margin: 5px;
 }
 
 .poemas {
@@ -71,8 +40,6 @@ h2 {
     width: 300px;
     border: 5px solid lightgreen;
 
-
-
 }
 
 .poema {
@@ -85,11 +52,7 @@ h2 {
 }
 
 footer {
-    width: 100%;
-    margin: auto;
     text-align: center;
-    height: 100px;
-    position: absolute;
     margin-top: 100px;
 }
 
@@ -98,10 +61,7 @@ footer {
     padding: 30px;
 
 }
-.h4 {
-    background-color: yellow;
-    display: inline;
-}
+
 .linea {
     border-top: 1px solid black;
     height: 2px;
@@ -112,8 +72,7 @@ footer {
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
+
     margin: auto;
 
 }
@@ -122,9 +81,6 @@ footer {
     border: 1px solid black;
     background-color: lightgreen;
 }
-
-/* mq */
-
 
 @media (max-width: 1200px) {
 
@@ -137,12 +93,4 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-}
-
-@media (max-width: 600px) {
-
-    .grid {
-        grid-template-columns: 1fr;
-    }
-
 }

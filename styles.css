@@ -84,10 +84,6 @@ footer {
 
 @media (max-width: 1200px) {
 
-    .grid {
-        grid-template-columns: 1fr 1fr;
-    }
-
     .poemas {
 
         flex-direction: column;

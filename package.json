@@ -1,0 +1,25 @@
+{
+  "name": "boostrap-prueba",
+  "version": "1.0.0",
+  "description": "coder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/estilo.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santibisku/IriSIento-boostrap.git"
+  },
+  "author": "Santiago Biskupovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santibisku/IriSIento-boostrap/issues"
+  },
+  "homepage": "https://github.com/santibisku/IriSIento-boostrap#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

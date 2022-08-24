@@ -1,107 +1,94 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    min-height: 100vh;
-
-
+  min-height: 100vh;
 }
 
 .logo {
-
-    width: 60px;
-
+  width: 60px;
 }
 
-
 h3 {
-
-    background-color: yellow;
-    display: inline;
-
+  background-color: yellow;
+  display: inline;
 }
 
 .img-fluid {
-    margin: 100px auto;
-    padding: 10px;
-    transition: .2s
+  margin: 100px auto;
+  padding: 10px;
+  transition: 0.2s;
 }
-.img-fluid:hover{
-
-    transform: scale(1.2)
-
+.img-fluid:hover {
+  transform: scale(1.2);
 }
+
 .poemas {
-
-    display: flex;
-    flex-direction: row;
-    white-space: pre-line;
-    justify-content: center;
-    text-align: center;
-
+  display: flex;
+  flex-direction: row;
+  white-space: pre-line;
+  justify-content: center;
+  text-align: center;
 }
 
 .poetaimg {
-
-    border-radius: 100%;
-    height: 300px;
-    width: 300px;
-    transition: .2s
-
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+  transition: 0.2s;
 }
-
-.poetaimg:hover{
-    transform: scale(1.2)
+.poetaimg:hover {
+  transform: scale(1.2);
 }
-
 
 .poema {
-
-    width: 300px;
-    margin: 100px;
-    margin-top: 0px;
-
-
+  width: 300px;
+  margin: 100px;
+  margin-top: 0px;
 }
 
 footer {
-    text-align: center;
-    margin-top: 100px;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .redes {
-    height: 90px;
-    padding: 30px;
-
+  height: 90px;
+  padding: 30px;
 }
 
 .linea {
-    border-top: 1px solid black;
-    height: 2px;
-    max-width: 500px;
-    padding: 0;
-    margin: 1px auto 0 auto;
-
-}
-
-.card {
-
-    margin: auto;
-
+  border-top: 1px solid black;
+  height: 2px;
+  max-width: 500px;
+  padding: 0;
+  margin: 1px auto 0 auto;
 }
 
 .btn {
-    border: 1px solid black;
-    background-color: lightgreen;
+  border: 1px solid black;
+  background-color: lightgreen;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  margin: auto;
 }
 
 @media (max-width: 1200px) {
-
-    .poemas {
-
-        flex-direction: column;
-        align-items: center;
-    }
+  .poemas {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards {
+    flex-direction: column;
+  }
 }
+
+/*# sourceMappingURL=styles.css.map */

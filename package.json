@@ -23,6 +23,7 @@
     "nodemon": "^2.0.19"
   },
   "dependencies": {
+    "sass": "^1.54.6",
     "scss-tokenizer": "^0.4.3"
   }
 }

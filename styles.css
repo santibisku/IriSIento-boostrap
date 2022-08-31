@@ -7,13 +7,25 @@ body {
   min-height: 100vh;
 }
 
+nav {
+  font-family: Garamond, serif;
+}
+
 .logo {
   width: 60px;
+  filter: invert(100%);
+}
+
+h1 {
+  font-family: Garamond, serif;
+  color: white;
+  padding: 20px;
 }
 
 h3 {
   background-color: yellow;
   display: inline;
+  font-family: Garamond, serif;
 }
 
 .img-fluid {
@@ -47,6 +59,7 @@ h3 {
   width: 300px;
   margin: 100px;
   margin-top: 0px;
+  font-family: Garamond, serif;
 }
 
 footer {
@@ -75,6 +88,7 @@ footer {
 .cards {
   display: flex;
   flex-direction: row;
+  font-family: Garamond, serif;
 }
 
 .card {
@@ -89,6 +103,4 @@ footer {
   .cards {
     flex-direction: column;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

@@ -63,11 +63,15 @@ h3 {
 }
 
 footer {
-  text-align: center;
   margin-top: 100px;
 }
 
 .redes {
+  display: flex;
+  justify-content: center;
+}
+
+.red {
   height: 90px;
   padding: 30px;
 }

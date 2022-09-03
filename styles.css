@@ -3,12 +3,64 @@
   padding: 0;
 }
 
+.maps-red {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  font-size: 30px;
+  color: red;
+  font-family: cursive;
+  border-radius: 10px;
+  margin: auto;
+  width: 200px;
+}
+
+.maps-orange {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  font-size: 30px;
+  color: orange;
+  font-family: serif;
+  border-radius: 10px;
+  margin: auto;
+  width: 200px;
+}
+
+.maps-blue {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+  font-family: fantasy;
+  border-radius: 10px;
+  margin: auto;
+  width: 200px;
+}
+
+.maps-green {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  font-size: 30px;
+  color: green;
+  font-family: monospace;
+  border-radius: 10px;
+  margin: auto;
+  width: 200px;
+}
+
 body {
   min-height: 100vh;
 }
 
 nav {
   font-family: Garamond, serif;
+}
+
+.integrantes {
+  text-align: center;
 }
 
 .logo {
@@ -20,6 +72,11 @@ h1 {
   font-family: Garamond, serif;
   color: white;
   padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-family: Garamond, serif;
 }
 
 h3 {
@@ -63,6 +120,7 @@ h3 {
 }
 
 footer {
+  margin: auto;
   margin-top: 100px;
 }
 
@@ -71,8 +129,7 @@ footer {
   justify-content: center;
 }
 
-.red {
-  height: 90px;
+.fa {
   padding: 30px;
 }
 

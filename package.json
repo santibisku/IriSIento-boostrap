@@ -1,7 +1,7 @@
 {
-  "name": "boostrap-prueba",
+  "name": "IriSIento",
   "version": "1.0.0",
-  "description": "coder",
+  "description": "IriSiento, sitio web de la organización de artistas y aficionados en la política y la filosofía",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

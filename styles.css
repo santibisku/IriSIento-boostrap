@@ -4,49 +4,37 @@
 }
 
 .maps-red {
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(0, 0, 0);
-  text-align: center;
+  border: 1px solid black;
   font-size: 30px;
   color: red;
   font-family: cursive;
-  border-radius: 10px;
   margin: auto;
   width: 200px;
 }
 
 .maps-orange {
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(0, 0, 0);
-  text-align: center;
+  border: 1px solid black;
   font-size: 30px;
   color: orange;
   font-family: serif;
-  border-radius: 10px;
   margin: auto;
   width: 200px;
 }
 
 .maps-blue {
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(0, 0, 0);
-  text-align: center;
+  border: 1px solid black;
   font-size: 30px;
   color: blue;
   font-family: fantasy;
-  border-radius: 10px;
   margin: auto;
   width: 200px;
 }
 
 .maps-green {
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(0, 0, 0);
-  text-align: center;
+  border: 1px solid black;
   font-size: 30px;
   color: green;
   font-family: monospace;
-  border-radius: 10px;
   margin: auto;
   width: 200px;
 }

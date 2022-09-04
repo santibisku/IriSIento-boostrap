@@ -16,13 +16,10 @@ $mapa1: (
 @each $sizes,
 $colours in $mapa1 {
     .maps-#{$colours} {
-        background-color: rgb(255, 255, 255);
-        border: 1px solid rgb(0, 0, 0);
-        text-align: center;
+        border: 1px solid black;
         font-size: 30px;
         color: $colours;
         font-family: $sizes;
-        border-radius: 10px;
         margin: auto;
         width: 200px;
 
@@ -40,9 +37,11 @@ body {
 nav {
     font-family: $myFont
 }
-.integrantes{
+
+.integrantes {
     text-align: center;
 }
+
 .logo {
 
     width: 60px;

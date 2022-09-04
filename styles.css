@@ -39,12 +39,20 @@
   width: 200px;
 }
 
-body {
-  min-height: 100vh;
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Garamond, serif;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: 2em;
 }
 
-nav {
-  font-family: Garamond, serif;
+body {
+  min-height: 100vh;
 }
 
 .integrantes {
@@ -121,12 +129,16 @@ footer {
   padding: 30px;
 }
 
-.linea {
+.linea, .linea--arriba {
   border-top: 1px solid black;
-  height: 2px;
+  height: 100px;
   max-width: 500px;
   padding: 0;
   margin: 1px auto 0 auto;
+}
+
+.linea--arriba {
+  max-width: 1200px;
 }
 
 .btn {
@@ -151,5 +163,11 @@ footer {
   }
   .cards {
     flex-direction: column;
+  }
+  h3 {
+    display: block;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }/*# sourceMappingURL=styles.css.map */

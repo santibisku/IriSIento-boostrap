@@ -3,8 +3,9 @@
     padding: 0;
 }
 
+$myFont: Garamond, serif;
+
 $mapa1: (
-    /*Declaramos nuestro mapa*/
     cursive: red,
     serif: orange,
     fantasy: blue,
@@ -26,16 +27,39 @@ $colours in $mapa1 {
     }
 }
 
-$myFont: Garamond, serif;
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: $myFont;
+
+}
+
+@mixin horizontal-list {
+    @include reset-list;
+
+    li {
+        display: inline-block;
+
+
+        margin: {
+            left: -2px;
+            right: 2em;
+        }
+    }
+}
+
+nav ul {
+    @include horizontal-list;
+
+}
+
+
 
 body {
     min-height: 100vh;
 
 
-}
-
-nav {
-    font-family: $myFont
 }
 
 .integrantes {
@@ -133,11 +157,15 @@ footer {
 
 .linea {
     border-top: 1px solid black;
-    height: 2px;
+    height: 100px;
     max-width: 500px;
     padding: 0;
     margin: 1px auto 0 auto;
 
+}
+.linea--arriba {
+    @extend .linea;
+    max-width: 1200px;
 }
 
 .btn {
@@ -166,5 +194,11 @@ footer {
 
     .cards {
         flex-direction: column;
+    }
+    h3 {
+        display: block;
+        text-align:center;
+        margin-left: 50px;
+        margin-right: 50px
     }
 }

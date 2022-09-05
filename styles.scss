@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-$myFont: Garamond, serif;
+$myFont: 'Times New Roman', Times, serif;
 
 $mapa1: (
     cursive: red,
@@ -163,6 +163,7 @@ footer {
     margin: 1px auto 0 auto;
 
 }
+
 .linea--arriba {
     @extend .linea;
     max-width: 1200px;
@@ -195,9 +196,10 @@ footer {
     .cards {
         flex-direction: column;
     }
+
     h3 {
         display: block;
-        text-align:center;
+        text-align: center;
         margin-left: 50px;
         margin-right: 50px
     }

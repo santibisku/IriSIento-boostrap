@@ -43,7 +43,7 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: Garamond, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 nav ul li {
   display: inline-block;
@@ -65,20 +65,20 @@ body {
 }
 
 h1 {
-  font-family: Garamond, serif;
+  font-family: "Times New Roman", Times, serif;
   color: white;
   padding: 20px;
 }
 
 h2 {
   text-align: center;
-  font-family: Garamond, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 h3 {
   background-color: yellow;
   display: inline;
-  font-family: Garamond, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .img-fluid {
@@ -112,7 +112,7 @@ h3 {
   width: 300px;
   margin: 100px;
   margin-top: 0px;
-  font-family: Garamond, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 footer {
@@ -149,7 +149,7 @@ footer {
 .cards {
   display: flex;
   flex-direction: row;
-  font-family: Garamond, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .card {

@@ -5,61 +5,18 @@
 
 $myFont: 'Times New Roman', Times, serif;
 
-$mapa1: (
-    cursive: red,
-    serif: orange,
-    fantasy: blue,
-    monospace: green,
-
-);
-
-
-@each $sizes,
-$colours in $mapa1 {
-    .maps-#{$colours} {
-        border: 1px solid black;
-        font-size: 30px;
-        color: $colours;
-        font-family: $sizes;
-        margin: auto;
-        width: 200px;
-
-    }
-}
-
-@mixin reset-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-family: $myFont;
-
-}
-
-@mixin horizontal-list {
-    @include reset-list;
-
-    li {
-        display: inline-block;
-
-
-        margin: {
-            left: -2px;
-            right: 2em;
-        }
-    }
-}
-
-nav ul {
-    @include horizontal-list;
-
-}
-
-
-
 body {
     min-height: 100vh;
 
 
+}
+
+nav {
+    font-family: $myFont;
+
+    li {
+        padding: 20px;
+    }
 }
 
 .integrantes {
@@ -72,6 +29,7 @@ body {
     filter: invert(100%);
 
 }
+
 
 h1 {
     font-family: $myFont;
@@ -94,7 +52,7 @@ h3 {
 
 .img-fluid {
     margin: 100px auto;
-    padding: 10px;
+    border: 1px solid black;
 
     transition: .2s;
 
@@ -157,16 +115,10 @@ footer {
 
 .linea {
     border-top: 1px solid black;
-    height: 100px;
+    height: 50px;
     max-width: 500px;
-    padding: 0;
-    margin: 1px auto 0 auto;
-
-}
-
-.linea--arriba {
-    @extend .linea;
-    max-width: 1200px;
+    margin: auto;
+    margin-top: 300px;
 }
 
 .btn {
@@ -183,6 +135,17 @@ footer {
 
 .card {
     margin: auto;
+    margin-top: 100px;
+}
+
+article {
+    width: 800px;
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    text-align: justify;
+    font-family: $myFont;
+    font-size: large;
 }
 
 @media (max-width: 1200px) {
@@ -198,9 +161,7 @@ footer {
     }
 
     h3 {
-        display: block;
         text-align: center;
-        margin-left: 50px;
-        margin-right: 50px
+        display: block;
     }
 }

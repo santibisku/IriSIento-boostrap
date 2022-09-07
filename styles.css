@@ -3,56 +3,15 @@
   padding: 0;
 }
 
-.maps-red {
-  border: 1px solid black;
-  font-size: 30px;
-  color: red;
-  font-family: cursive;
-  margin: auto;
-  width: 200px;
-}
-
-.maps-orange {
-  border: 1px solid black;
-  font-size: 30px;
-  color: orange;
-  font-family: serif;
-  margin: auto;
-  width: 200px;
-}
-
-.maps-blue {
-  border: 1px solid black;
-  font-size: 30px;
-  color: blue;
-  font-family: fantasy;
-  margin: auto;
-  width: 200px;
-}
-
-.maps-green {
-  border: 1px solid black;
-  font-size: 30px;
-  color: green;
-  font-family: monospace;
-  margin: auto;
-  width: 200px;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  font-family: "Times New Roman", Times, serif;
-}
-nav ul li {
-  display: inline-block;
-  margin-left: -2px;
-  margin-right: 2em;
-}
-
 body {
   min-height: 100vh;
+}
+
+nav {
+  font-family: "Times New Roman", Times, serif;
+}
+nav li {
+  padding: 20px;
 }
 
 .integrantes {
@@ -83,7 +42,7 @@ h3 {
 
 .img-fluid {
   margin: 100px auto;
-  padding: 10px;
+  border: 1px solid black;
   transition: 0.2s;
 }
 .img-fluid:hover {
@@ -129,16 +88,12 @@ footer {
   padding: 30px;
 }
 
-.linea, .linea--arriba {
+.linea {
   border-top: 1px solid black;
-  height: 100px;
+  height: 50px;
   max-width: 500px;
-  padding: 0;
-  margin: 1px auto 0 auto;
-}
-
-.linea--arriba {
-  max-width: 1200px;
+  margin: auto;
+  margin-top: 300px;
 }
 
 .btn {
@@ -154,6 +109,17 @@ footer {
 
 .card {
   margin: auto;
+  margin-top: 100px;
+}
+
+article {
+  width: 800px;
+  position: absolute;
+  top: 250px;
+  left: 40px;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
 }
 
 @media (max-width: 1200px) {
@@ -165,9 +131,7 @@ footer {
     flex-direction: column;
   }
   h3 {
-    display: block;
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    display: block;
   }
 }/*# sourceMappingURL=styles.css.map */

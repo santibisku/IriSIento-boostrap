@@ -60,15 +60,18 @@
     <h3>Suscribite</h3>
 
 
-    <form class="text-center border border-light p-5" name="contact" method="post" netlify>
-
-        <p>Te llegará un mail cuando subamos una publicación!</p>
-
-        <input name="contact" type="email" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="E-mail">
-
-        <button class="btn btn-info btn-block bg-dark" type="submit">Enviar</button>
-
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+            <label>Your Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <button type="submit">Send</button>
+        </p>
     </form>
+
 
 
     <footer>

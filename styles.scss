@@ -11,14 +11,6 @@ body {
 
 }
 
-nav {
-    font-family: $myFont;
-
-    li {
-        padding: 20px;
-    }
-}
-
 .integrantes {
     text-align: center;
 }
@@ -43,7 +35,6 @@ h2 {
 }
 
 h3 {
-
     background-color: yellow;
     display: inline;
     font-family: $myFont;
@@ -97,7 +88,6 @@ h3 {
 
 footer {
     margin: auto;
-    margin-top: 100px;
 }
 
 .redes {
@@ -118,7 +108,6 @@ footer {
     height: 50px;
     max-width: 500px;
     margin: auto;
-    margin-top: 300px;
 }
 
 .btn {
@@ -136,6 +125,7 @@ footer {
 .card {
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 

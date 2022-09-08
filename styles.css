@@ -7,13 +7,6 @@ body {
   min-height: 100vh;
 }
 
-nav {
-  font-family: "Times New Roman", Times, serif;
-}
-nav li {
-  padding: 20px;
-}
-
 .integrantes {
   text-align: center;
 }
@@ -76,7 +69,6 @@ h3 {
 
 footer {
   margin: auto;
-  margin-top: 100px;
 }
 
 .redes {
@@ -93,7 +85,6 @@ footer {
   height: 50px;
   max-width: 500px;
   margin: auto;
-  margin-top: 300px;
 }
 
 .btn {
@@ -110,6 +101,7 @@ footer {
 .card {
   margin: auto;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 1200px) {

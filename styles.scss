@@ -139,12 +139,13 @@ footer {
 }
 
 article {
-    width: 600px;
+
     text-align: justify;
     font-family: $myFont;
     font-size: large;
-    margin:0 auto;
-    margin-top: 100px
+    margin: 0 auto;
+    margin-top: 100px;
+
 }
 
 @media (max-width: 1200px) {

@@ -104,6 +104,10 @@ footer {
   margin-bottom: 100px;
 }
 
+.subscripcion {
+  text-align: center;
+}
+
 @media (max-width: 1200px) {
   .poemas {
     flex-direction: column;

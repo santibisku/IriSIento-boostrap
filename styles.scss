@@ -10,6 +10,15 @@ body {
 
 
 }
+nav {
+    font-family: $myFont;
+    font-size: larger;
+
+    li {
+        padding: 20px;
+    }
+}
+
 
 .integrantes {
     text-align: center;

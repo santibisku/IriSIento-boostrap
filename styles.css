@@ -7,6 +7,14 @@ body {
   min-height: 100vh;
 }
 
+nav {
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+}
+nav li {
+  padding: 20px;
+}
+
 .integrantes {
   text-align: center;
 }

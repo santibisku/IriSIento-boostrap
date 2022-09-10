@@ -37,8 +37,9 @@ h2 {
 
 h3 {
   background-color: yellow;
-  display: inline;
   font-family: "Times New Roman", Times, serif;
+  display: inline-block;
+  margin: 20px;
 }
 
 .img-fluid {
@@ -115,6 +116,11 @@ footer {
 .subscripcion {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
+}
+
+.navbar {
+  margin-bottom: 30px;
+  z-index: 1;
 }
 
 .navbar-toggler {
@@ -198,9 +204,12 @@ footer {
   background: linear-gradient(263deg, white, green);
 }
 
-/* fin boton */
 .navbar-dark {
   background: black;
+}
+
+.tornillo {
+  width: 30px;
 }
 
 @media (max-width: 1200px) {

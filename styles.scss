@@ -36,7 +36,7 @@ nav {
 h1 {
     font-family: $myFont;
     color: white;
-    padding: 20px;
+    padding: 30px;
 }
 
 h2 {
@@ -46,9 +46,10 @@ h2 {
 
 h3 {
 
-    background-color: yellow;
+    background-color: green;
     font-family: $myFont;
     display: inline-block;
+    color: white;
 
 }
 
@@ -146,6 +147,7 @@ footer {
 .navbar {
     margin-bottom: 30px;
     z-index: 1;
+    height: 60px;
 }
 
 .navbar-toggler {

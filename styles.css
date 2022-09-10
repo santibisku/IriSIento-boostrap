@@ -198,6 +198,11 @@ footer {
   background: linear-gradient(263deg, white, green);
 }
 
+/* fin boton */
+.navbar-dark {
+  background: black;
+}
+
 @media (max-width: 1200px) {
   .poemas {
     flex-direction: column;

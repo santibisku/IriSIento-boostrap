@@ -39,7 +39,6 @@ h3 {
   background-color: yellow;
   font-family: "Times New Roman", Times, serif;
   display: inline-block;
-  margin: 20px;
 }
 
 .img-fluid {
@@ -210,7 +209,6 @@ footer {
 
 .tornillo {
   width: 30px;
-  float: right;
 }
 
 @media (max-width: 1200px) {
@@ -220,5 +218,9 @@ footer {
   }
   .cards {
     flex-direction: column;
+  }
+  h3 {
+    display: flex;
+    justify-content: center;
   }
 }/*# sourceMappingURL=styles.css.map */

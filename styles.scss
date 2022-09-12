@@ -46,10 +46,10 @@ h2 {
 
 h3 {
 
-    background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+    background-color: gray;
     font-family: $myFont;
     display: inline-block;
-    color: black
+    color: black;   
 
 }
 
@@ -87,10 +87,11 @@ h3 {
     height: 300px;
     width: 300px;
     transition: .2s;
+    border: 3px solid lightgreen;
 
     &:hover {
 
-        transform: scale(1.2)
+        transform: scale(1.1)
     }
 }
 
@@ -145,7 +146,7 @@ footer {
     margin-bottom: 100px;
 }
 .card-body{
-    background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+    background-color: lightgreen;
 }
 
 .subscripcion {
@@ -246,7 +247,7 @@ input {
 /* Color of 3 lines */
 
 .navbar-toggler.collapsed .toggler-icon {
-    background: linear-gradient(263deg, white, green);
+    background: green;
 }
 
 .navbar-dark {

@@ -37,7 +37,7 @@ h2 {
 }
 
 h3 {
-  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+  background-color: gray;
   font-family: "Times New Roman", Times, serif;
   display: inline-block;
   color: black;
@@ -70,9 +70,10 @@ h3 {
   height: 300px;
   width: 300px;
   transition: 0.2s;
+  border: 3px solid lightgreen;
 }
 .poetaimg:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .poema {
@@ -120,7 +121,7 @@ footer {
 }
 
 .card-body {
-  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+  background-color: lightgreen;
 }
 
 .subscripcion {
@@ -216,7 +217,7 @@ input {
 
 /* Color of 3 lines */
 .navbar-toggler.collapsed .toggler-icon {
-  background: linear-gradient(263deg, white, green);
+  background: green;
 }
 
 .navbar-dark {

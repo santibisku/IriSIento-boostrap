@@ -37,10 +37,10 @@ h2 {
 }
 
 h3 {
-  background-color: black;
+  background-color: lightgreen;
   font-family: "Times New Roman", Times, serif;
   display: inline-block;
-  color: white;
+  color: black;
 }
 
 .img-fluid {

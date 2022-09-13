@@ -46,10 +46,10 @@ h2 {
 
 h3 {
 
-    background-color: black;
+    background-color: lightgreen;
     font-family: $myFont;
     display: inline-block;
-    color: white
+    color: black;
 }
 
 .img-fluid {
@@ -131,20 +131,21 @@ footer {
     display: flex;
     flex-direction: row;
     font-family: $myFont;
-    
+
 }
 
 .card {
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
-    
+
 }
 
 .card-body {
     background-color: lightgreen;
     border: 1px solid black;
 }
+
 .card-img-top {
     border: 1px solid black;
 }
@@ -268,7 +269,7 @@ input {
     background-color: lightgreen;
     border-radius: 3px;
     margin: 10px;
-    
+
 }
 
 @media (max-width: 1000px) {

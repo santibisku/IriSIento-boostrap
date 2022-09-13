@@ -43,11 +43,6 @@ h3 {
   color: white;
 }
 
-.discord {
-  height: 50px;
-  position: relative;
-}
-
 .img-fluid {
   margin: 100px auto;
   border: 1px solid black;
@@ -87,7 +82,7 @@ footer {
   margin: auto;
 }
 
-.contacto {
+.redes {
   display: flex;
   justify-content: center;
 }
@@ -96,16 +91,15 @@ footer {
   padding: 30px;
 }
 
+.discord {
+  width: 50px;
+}
+
 .linea {
   border-top: 1px solid black;
   height: 50px;
   max-width: 500px;
   margin: auto;
-}
-
-.btn {
-  border: 1px solid black;
-  background-color: lightgreen;
 }
 
 .cards {
@@ -233,9 +227,9 @@ input {
 }
 
 .boton {
-  background-color: green;
-  color: white;
+  background-color: lightgreen;
   border-radius: 3px;
+  margin: 10px;
 }
 
 @media (max-width: 1000px) {

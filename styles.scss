@@ -50,13 +50,6 @@ h3 {
     font-family: $myFont;
     display: inline-block;
     color: white
-
-}
-
-.discord {
-    height: 50px;
-    position: relative;
-
 }
 
 .img-fluid {
@@ -109,7 +102,7 @@ footer {
     margin: auto;
 }
 
-.contacto {
+.redes {
 
     display: flex;
     justify-content: center;
@@ -121,17 +114,17 @@ footer {
     padding: 30px;
 }
 
+.discord {
+
+    width: 50px;
+
+}
+
 .linea {
     border-top: 1px solid black;
     height: 50px;
     max-width: 500px;
     margin: auto;
-}
-
-.btn {
-    border: 1px solid black;
-    background-color: lightgreen;
-
 }
 
 .cards {
@@ -145,13 +138,15 @@ footer {
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.card-body{
+
+.card-body {
     background-color: lightgreen;
 }
 
 .subscripcion {
     text-align: center;
     font-family: $myFont;
+
 }
 
 input {
@@ -264,9 +259,10 @@ input {
 }
 
 .boton {
-    background-color: green;
-    color: white;
+    background-color: lightgreen;
     border-radius: 3px;
+    margin: 10px;
+    
 }
 
 @media (max-width: 1000px) {
@@ -285,7 +281,8 @@ input {
         display: flex;
         justify-content: center;
     }
-    .navbar{
+
+    .navbar {
         height: auto;
     }
 }

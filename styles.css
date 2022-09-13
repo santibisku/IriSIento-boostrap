@@ -37,10 +37,10 @@ h2 {
 }
 
 h3 {
-  background-color: gray;
+  background-color: black;
   font-family: "Times New Roman", Times, serif;
   display: inline-block;
-  color: black;
+  color: white;
 }
 
 .discord {

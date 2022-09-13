@@ -46,10 +46,10 @@ h2 {
 
 h3 {
 
-    background-color: gray;
+    background-color: black;
     font-family: $myFont;
     display: inline-block;
-    color: black;   
+    color: white
 
 }
 
@@ -267,9 +267,6 @@ input {
     background-color: green;
     color: white;
     border-radius: 3px;
-}
-footer{
-    
 }
 
 @media (max-width: 1000px) {

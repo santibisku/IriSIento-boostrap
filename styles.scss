@@ -32,7 +32,6 @@ nav {
 
 }
 
-
 h1 {
     font-family: $myFont;
     color: white;
@@ -46,10 +45,10 @@ h2 {
 
 h3 {
 
-    background-color: lightgreen;
     font-family: $myFont;
-    display: inline-block;
-    color: black;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .img-fluid {
@@ -109,17 +108,15 @@ footer {
 
 }
 
-.fa {
-
+.fa-brands {
     padding: 30px;
 }
+.articulo{
 
-.discord {
-
-    width: 50px;
-
+    margin: auto;
+    padding: 100px;
+    
 }
-
 .linea {
     border-top: 1px solid black;
     height: 50px;
@@ -256,15 +253,6 @@ input {
     background: black;
 }
 
-.tornillo {
-    width: 30px;
-}
-
-.casa {
-
-    filter: invert(1);
-}
-
 .boton {
     background-color: lightgreen;
     border-radius: 3px;
@@ -282,11 +270,6 @@ input {
 
     .cards {
         flex-direction: column;
-    }
-
-    h3 {
-        display: flex;
-        justify-content: center;
     }
 
     .navbar {

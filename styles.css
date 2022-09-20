@@ -25,6 +25,18 @@ nav li {
   filter: invert(100%);
 }
 
+a .logo:last-child {
+  display: none;
+}
+
+a:hover .logo:last-child {
+  display: block;
+}
+
+a:hover .logo:first-child {
+  display: none;
+}
+
 h1 {
   font-family: "Times New Roman", Times, serif;
   color: white;

@@ -32,6 +32,18 @@ nav {
 
 }
 
+a .logo:last-child {
+    display: none;
+}
+
+a:hover .logo:last-child {
+    display: block;
+}
+
+a:hover .logo:first-child {
+    display: none;
+}
+
 h1 {
     font-family: $myFont;
     color: white;
@@ -48,7 +60,7 @@ h3 {
     font-family: $myFont;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .img-fluid {
@@ -111,12 +123,14 @@ footer {
 .fa-brands {
     padding: 30px;
 }
-.articulo{
+
+.articulo {
 
     margin: auto;
     padding: 100px;
-    
+
 }
+
 .linea {
     border-top: 1px solid black;
     height: 50px;
